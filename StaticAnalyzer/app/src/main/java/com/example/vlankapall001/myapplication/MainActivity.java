@@ -36,6 +36,7 @@ public class MainActivity extends AppCompatActivity {
 
 
                 Toast.makeText(MainActivity.this, "This is Onclick of button2", Toast.LENGTH_SHORT).show();
+                Toast.makeText(MainActivity.this, "This is Onclick of button2", Toast.LENGTH_SHORT).show();
 
                     Toast.makeText(MainActivity.this, "This is Onclick of button", Toast.LENGTH_SHORT).show();
                     String abcc= null;
