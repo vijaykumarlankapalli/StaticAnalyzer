@@ -8,9 +8,12 @@ import android.support.v7.widget.Toolbar;
 import android.view.View;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.widget.Button;
+import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
 
+    Button sOkButton;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -26,6 +29,19 @@ public class MainActivity extends AppCompatActivity {
                         .setAction("Action", null).show();
             }
         });
+        sOkButton=(Button)findViewById(R.id.ok_button);
+        sOkButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v)
+                {
+                    Toast.makeText(MainActivity.this, "This is Onclick of button", Toast.LENGTH_SHORT).show();
+                    String abcc= null;
+                    if(abcc.contains("s")){
+                        
+                    }
+            }
+        });
+
     }
 
     @Override
