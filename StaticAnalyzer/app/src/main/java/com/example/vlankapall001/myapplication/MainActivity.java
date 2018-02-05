@@ -37,7 +37,7 @@ public class MainActivity extends AppCompatActivity {
 
 
 
-
+                Toast.makeText(MainActivity.this, "This is Onclick of click", Toast.LENGTH_SHORT).show();
                     Toast.makeText(MainActivity.this, "This is Onclick of button", Toast.LENGTH_SHORT).show();
                     String abcc= null;
                     if(abcc.contains("s")){
