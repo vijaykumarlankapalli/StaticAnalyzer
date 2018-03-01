@@ -12,6 +12,7 @@ import android.widget.Button;
 import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
+    private Button aButton;
 
     Button sOkButton;
     @Override
@@ -37,7 +38,7 @@ public class MainActivity extends AppCompatActivity {
                     Toast.makeText(MainActivity.this, "This is Onclick of button", Toast.LENGTH_SHORT).show();
                     String abcc= null;
                     if(abcc.contains("s")){
-                        //to do
+                        //Todo Hi
 
                     }
             }
@@ -66,4 +67,8 @@ public class MainActivity extends AppCompatActivity {
 
         return super.onOptionsItemSelected(item);
     }
+    private void empty() {
+
+    }
+
 }
