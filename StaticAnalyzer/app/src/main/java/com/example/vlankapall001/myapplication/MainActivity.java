@@ -82,9 +82,7 @@ public class MainActivity extends AppCompatActivity {
                 if (position == 0) {
                     videoView.start();
                 }
-                 if (position == 0) {
-                    videoView.start();
-                 }
+                
                 // When video Screen change size.
                 mediaPlayer.setOnVideoSizeChangedListener(new MediaPlayer.OnVideoSizeChangedListener() {
                     @Override
