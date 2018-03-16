@@ -58,8 +58,7 @@ public class MainActivity extends AppCompatActivity {
             // Set MediaController for VideoView
             videoView.setMediaController(mediaController);
         }
-
-
+        
         try {
             // ID of video file.
             String videoUrl="https://www.youtube.com/watch?v=JHdmkP-nfsA";
